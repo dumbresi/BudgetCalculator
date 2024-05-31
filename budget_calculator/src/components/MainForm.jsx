@@ -55,8 +55,10 @@ const MainForm=()=>{
       
 
     return (
-    <div className="container mx-auto p-4 max-w-4xl">
-      <h1 className="text-4xl font-bold text-center mb-6 text-sute-blue">Budget Calculator</h1>
+    <div className="container mt-16 mx-auto p-4 max-w-4xl">
+      <header className="fixed top-0 left-0 w-full bg-white shadow-lg p-4 z-10">
+        <h1 className="text-4xl font-bold text-center text-sute-blue">Budget Calculator</h1>
+      </header>
       <div className="bg-white shadow-lg rounded-lg p-6">
         {items.map((item, index) => (
             <FormItem key={index}

@@ -1,5 +1,3 @@
-// src/components/CategoryTotal.js
-
 import React from 'react';
 
 const CategoricalTotal = ({ expenditures }) => {
